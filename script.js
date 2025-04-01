@@ -21,7 +21,7 @@ const bird = {
     width: 40,
     height: 30,
     gravity: 0.6,
-    lift: -15,
+    lift: -8,
     velocity: 0
 };
 
