@@ -4,26 +4,31 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #87CEEB;
+    background-color: #ffffff;
     overflow: hidden;
+    font-family: 'Poppins', sans-serif;
     flex-direction: column; /* Để canvas và button xếp dọc */
 }
 
 #gameCanvas {
-    border: 1px solid black;
+    background-color: #3b9dff22;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2)
 }
 
 #restartButton {
-    margin-top: 20px;
     padding: 10px 20px;
-    font-size: 18px;
-    background-color: #ff4444;
+    font-size: 16px;
+    background-color: #47aeb4;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 18px;
     cursor: pointer;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 #restartButton:hover {
-    background-color: #cc0000;
+    background-color: #09666c;
 }
